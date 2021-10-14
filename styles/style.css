@@ -27,6 +27,8 @@ nav a:hover{
 } 
 #hero-img{
     width: 100%;
+    margin-left: 1%;
+    margin-right: 1%;
     }
 h1{
     text-align: center;
@@ -112,6 +114,7 @@ nav a{
 }
 .book,.join{
     border-radius: 5px;
+    padding: 20px;
 }
 .card-img {
     border: 10px solid #d9c2a3;
