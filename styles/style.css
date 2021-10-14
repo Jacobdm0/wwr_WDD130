@@ -2,19 +2,43 @@
 max-width: 1600px;
 margin: 0 auto;
 }
+body{
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+}
+h2 {
+    margin: 0;
+}
+.home-title{
+    font-size: 2em;
+}
 nav a{
     text-align: center;
     text-decoration: none;
+    font-family:  Lato, Helvetica, sans-serif;
 }
+nav a:hover{
+    color:  #444040;
+    font-family:  Lato, Helvetica, sans-serif;
+  }
 #hero-msg{
     text-align: center;
 } 
+#hero-img{
+    width: 100%;
+    }
 h1{
     text-align: center;
+ font-family:  "Diplomata", serif;
 }
   
 h4{
     text-align: center;
+    font-family:  "Diplomata", serif;
+}
+p{
+    font-family:  Lato, Helvetica, sans-serif;
 }
 .button-box{
     text-align: center;
@@ -29,6 +53,7 @@ section{
 }
 #background {
     height: 725px;
+    background-color: #98E2C6;
 }
 body{
  background-color: #98E2C6;
@@ -36,36 +61,42 @@ body{
 header{
     background-color: #98E2C6;
 } 
-nav a:hover{
-  color:  #444040;
-}
+
 .book{
     color: #444040;
     text-decoration: none;
+    font-family:  Lato, Helvetica, sans-serif;
+    font-size: 18px;
 }
 .book:hover{
    color: #48BF84;
    text-decoration: none;
+   font-family:  Lato, Helvetica, sans-serif;
 }
 .join{
     color: #444040;
     text-decoration: none;
+    font-size: 18px;
+    font-family:  Lato, Helvetica, sans-serif;
 }
 .join:hover{
     color:#48BF84;
     text-decoration: none;
-}
-#background{
-    background-color: #98E2C6;
+    font-family:  Lato, Helvetica, sans-serif;
 }
 .msg{
-    color: #444040;
+    margin-top: 20px;
+    background-color: #444040;
+    font-size: .8em;
+    line-height: 1.5em;
 }
 footer{
     background-color: #98E2C6;
 }
 footer a{
     text-decoration: none;
+    font-family:  "Diplomata", serif;
+    color: #444040;
 }
 .logo{
     width:80px;
@@ -73,6 +104,15 @@ footer a{
 .icon{
     width:80px;
 }
-#hero-img{
-width: 100%;
+nav a{
+    margin-right: 15%;
+}
+.first_link{
+    margin-left: 2%;
+}
+.book,.join{
+    border-radius: 5px;
+}
+.card-img {
+    border: 10px solid #d9c2a3;
 }
